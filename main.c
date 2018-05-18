@@ -12,7 +12,7 @@ int main()
         if(nmr >= 4)
         {
             contador = 2;
-            while(contador <= nmr / 2)
+            while(contador <= nmr / 2 && Flag == 1)
             {
                 if (nmr % contador == 0)
                 flag = 0;
